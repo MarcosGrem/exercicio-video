@@ -1,0 +1,81 @@
+.conteudo-principal{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 415px;
+}
+
+.video{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 35px;
+    width: min-content;
+}
+
+.video h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 12px;
+    margin-right: 0px;
+}
+
+.visualizacoes-principal{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 7px;
+}
+
+.descricao{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 9px;
+}
+
+.propaganda-recomendados{
+    display: flexbox;
+    margin-top: 38px;   
+}
+
+.propaganda{
+    margin-bottom: 20px;
+}
+
+.recomendados{
+    display: flex;
+    margin-top: 20px;
+}
+
+.video-recomendado{
+    display: flexbox;
+    align-items: center;
+}
+
+.video-recomendado h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 3px;
+}
+
+.video-recomendado p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    padding-left: 3px;
+    margin-top: 5px;
+}
